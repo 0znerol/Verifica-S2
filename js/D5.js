@@ -99,7 +99,7 @@ for (let i = 0; i < cars.length; i++) {
   trim.push(cars[i].trims);
   delete cars[i].trims;
 }
-console.log(trim);
+
 console.log(cars);
 console.log("--------------------------------------");
 
