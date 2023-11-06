@@ -62,6 +62,9 @@ h2 {
 h3 b {
   font-size: 50px;
 }
+h3 {
+  padding: 50px 0 0 50px;
+}
 #sideScroll {
   margin-top: 600px;
   font-size: 50px;
@@ -86,7 +89,7 @@ h3 b {
 }
 .banner {
   width: 96%;
-  margin: 0 0;
+  margin: 40px 0 0 0;
   text-align: center;
 }
 .bannerDiv {
