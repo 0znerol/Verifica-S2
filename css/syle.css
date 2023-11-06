@@ -30,19 +30,12 @@ li {
   font-size: 40px;
   display: inline;
 }
-header {
-}
-
 header p {
   background-color: #f46600;
   font-size: 40px;
   color: white;
   padding: 10px 0;
 }
-
-/*👉header img {
-  width: 100%;
-}👈*/
 #headerTxt {
   height: 400px;
   background-image: url(../images/bg-image.png);
