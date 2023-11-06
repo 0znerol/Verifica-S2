@@ -43,7 +43,7 @@ header img {
 }
 #headerTxt {
   position: absolute;
-  width: -webkit-fill-available;
+  width: 96%;
 }
 h1 {
   color: white;
@@ -59,7 +59,6 @@ h2 {
 }
 #sideScroll div {
   margin-left: 50px;
-  display: flex;
   align-items: center;
 }
 a {
@@ -82,7 +81,6 @@ a {
 .bannerDiv {
   font-weight: 600;
   font-size: 50px;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
