@@ -53,6 +53,9 @@ h2 {
   color: white;
   font-size: 50px;
 }
+h3 b {
+  font-size: 50px;
+}
 #sideScroll {
   margin-top: 600px;
   font-size: 50px;

@@ -33,8 +33,9 @@ console.log("--------------------------------------");
 /* ESERCIZIO 4
     Scrivi del codice per spostare il primo elemento dall'array "pets" in ultima posizione.
 */
-let firstElement = pets.shift();
-pets.push(firstElement);
+
+// let firstElement = ;
+pets.push(pets.shift());
 console.log(pets);
 
 console.log("--------------------------------------");
@@ -63,10 +64,9 @@ const cars = [
   },
 ];
 
-cars.map(function (insert) {
-  insert.licensePlate = "ab1234ff";
-  return insert;
-});
+for (let i = 0; i < cars.length; i++) {
+  cars[i].licensePlate = "aa1234ff";
+}
 
 console.log(cars);
 console.log("--------------------------------------");
