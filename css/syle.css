@@ -30,6 +30,8 @@ li {
   font-size: 40px;
   display: inline;
 }
+header {
+}
 
 header p {
   background-color: #f46600;
@@ -37,15 +39,20 @@ header p {
   color: white;
   padding: 10px 0;
 }
-header img {
+
+/*👉header img {
   width: 100%;
-  height: 365.75px;
-}
+}👈*/
 #headerTxt {
+  height: 400px;
+  background-image: url(../images/bg-image.png);
+  background-size: 92%;
+  padding: 50px 0;
   position: absolute;
   width: 96%;
 }
 h1 {
+  margin: 120px 0 0 0;
   color: white;
   font-size: 80px;
 }
@@ -54,6 +61,7 @@ h2 {
   font-size: 50px;
 }
 #sideScroll {
+  margin-top: 600px;
   font-size: 50px;
   background-color: white;
 }

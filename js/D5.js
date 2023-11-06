@@ -67,7 +67,7 @@ cars.map(function (insert) {
   insert.licensePlate = "ab1234ff";
   return insert;
 });
-console.log(cars.trims);
+
 console.log(cars);
 console.log("--------------------------------------");
 
